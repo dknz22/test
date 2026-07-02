@@ -1,0 +1,8 @@
+node_modules
+# Keep environment variables out of version control
+.env
+
+# Local SQLite database (regenerated via prisma migrate)
+prisma/dev.db
+*.db
+*.db-journal
